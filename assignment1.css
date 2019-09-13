@@ -1,0 +1,43 @@
+#p1 {
+    position: relative;
+    font-size: 2em;
+    top: 10;
+    width: 60px;
+    height: 30px;
+    float: right;
+    margin: 5px;
+    clear: left;
+}
+#cont2 {
+    border: 1px solid red;
+    background-color: crimson;
+    height: 40px;
+    width: 80px;
+    float: right;
+}
+#p11 {
+    position: relative;
+    margin: 10px;
+    clear: right;
+}
+#cont {
+    border: 1px solid green;
+    background-color: darkolivegreen;
+    position: relative;
+    margin: 6px;
+    height: 250px;
+}
+
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+    }
+    .col-lg-4{
+        width: 32%; 
+    }
+}
+h1 {
+position: relative;
+left: 600px;
+height: 100px;
+}
